@@ -1,0 +1,25 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.portada {
+  margin-top: 10rem !important;
+}
+
+.img-portada {
+  width: 300px;
+  border-radius: 50%;
+}
+.nombre {
+  font-size: 30px;
+}
+.saludo-titulo {
+  font-size: 100px;
+}
+.texto-portada {
+  font-weight: 300;
+}
+.contenedor-info {
+  background-color: #e7edff;
+  padding: 0px 30px;
+}
