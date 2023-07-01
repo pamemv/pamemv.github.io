@@ -1,0 +1,61 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(194, 194, 255);
+  background-image: url("../imgs/tomoko-uji-38afJMG_hS0-unsplash.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.header {
+  margin: 10px;
+  padding: 80px;
+  text-align: center;
+  background-color: white;
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  border-radius: 40px;
+  background-image: url("../imgs/logo.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 1060px;
+}
+.products {
+  width: 80%;
+  margin: auto;
+}
+.products td {
+  width: 50%;
+  padding: 1em;
+  font-size: 25px;
+}
+.products img {
+  width: 80%;
+  border: solid 10px white;
+  border-radius: 40px;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+.footer {
+  height: 5em;
+  line-height: 5em;
+  text-align: center;
+  background-color: white;
+  color: #0a0a0a;
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  font-weight: 500;
+}

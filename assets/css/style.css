@@ -126,3 +126,7 @@ body {
   border: 0px;
   border-radius: 10px;
 }
+/* footer*/
+.bg-footer {
+  background-color: #7d99ec;
+}
