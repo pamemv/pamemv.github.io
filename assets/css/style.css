@@ -2,17 +2,27 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-.portada {
-  margin-top: 10rem !important;
+.navbar-color {
+  background-color: #7d99ec;
+}
+
+#front-page {
+  background-image: url("../img/fondo8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 750px;
 }
 
 .img-portada {
   width: 300px;
   border-radius: 50%;
 }
+
 .nombre {
   font-size: 30px;
 }
+
 .saludo-titulo {
   font-size: 100px;
 }
@@ -21,15 +31,24 @@ body {
   background-color: #e7edff;
   padding: 0px 30px;
 }
+
 .contenedor-experiencia {
-  height: 450px;
-  background-color: #7d99ec;
+  height: 500px;
+  background-color: #e7edff;
 }
+
+.contenedor-educacion {
+  height: 500px;
+}
+
 .titulo-seccion {
   font-size: 50px;
+  padding: 30px;
 }
+
 .texto-experiencia {
   text-align: left;
+  color: dark;
 }
 
 /* css mis estudios*/
@@ -75,4 +94,23 @@ body {
   .horizontal-timeline .items .items-list .event-date {
     top: -40px;
   }
+}
+
+/* mis trabajos*/
+.image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.portafolio {
+  background-color: #7d99ec;
+}
+
+.card {
+  border: 0px;
+  border-radius: 10px;
 }

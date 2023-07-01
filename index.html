@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-color">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <h2 class="img-fluid">Curriculum</h2>
+          <h2 class="img-fluid text-white">Curriculum</h2>
         </a>
         <button
           class="navbar-toggler"
@@ -41,31 +41,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#experiencia"
-              >Experiencia</a
-            >
-            <a class="nav-link" href="#portafolio">Portafolio</a>
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+            <a class="nav-link text-white" href="#educación">Educación</a>
+            <a class="nav-link text-white" href="#portafolio">Mis trabajos</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
-    <header class="portada">
+    <header id="front-page" class="portada">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="padding-top: 10rem">
           <div class="col-sm-12 col-md-12 col-lg-5">
             <div class="d-flex flex-column align-items-center gap-2">
               <div>
                 <img src="./assets/img/imgportada.jpeg" class="img-portada" />
               </div>
               <div class="nombre">Pamela Maturana</div>
-              <div class="texto-portada">
-                <em
-                  >"Primero resuelve el problema. Después, escribe el
-                  código"</em
-                >
+              <div>
+                <div class="texto-portada">
+                  <em
+                    >"Primero resuelve el problema. Después, escribe el
+                    código"</em
+                  >
+                </div>
+                <div class="fw-light text-center">(John Johnson)</div>
               </div>
-              <div class="fw-light">(John Johnson)</div>
             </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-5 contenedor-info">
@@ -97,71 +98,16 @@
       </div>
     </header>
 
-    <section id="mis-estudios">
-        <div class="container-fluid py-5">
-          <div class="display-4 fw-bold text-center text-dark mb-5 pb-5">
-              Mis estudios
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="horizontal-timeline">
-                <ul class="list-inline items">
-                  <li class="list-inline-item items-list">
-                    <div class="px-4">
-                      <div class="event-date badge bg-dark">2003</div>
-                      <h5 class="pt-2">E. Básica</h5>
-                      <p class="text-muted">
-                        Graduación 8vo básico</p>
-                        <p>Colegio Teresiano San José. Comuna San Bernardo, Chile
-                      </p>
-                  </li>
-                  <li class="list-inline-item items-list">
-                    <div class="px-4">
-                      <div class="event-date badge bg-dark">2007</div>
-                      <h5 class="pt-2">E. Media</h5>
-                      <p class="text-muted">
-                          Graduación IV medio</p>
-                       <p> Liceo Maria Inmaculada. Comuna El Bosque, Chile
-                      </p>
-                  </li>
-                  <li class="list-inline-item items-list">
-                    <div class="px-4">
-                      <div class="event-date badge bg-dark">2017</div>
-                      <h5 class="pt-2">E. Universitaria</h5>
-                      <p class="text-muted">
-                          Título de Psicóloga y el Grado de Licenciada en Psicología 2022
-                      </p>
-                      <p>UDLA. Santiago, Chile</p>
-                     
-                  </li>
-                  <li class="list-inline-item items-list">
-                    <div class="px-4">
-                      <div class="event-date badge bg-dark">2022</div>
-                      <h5 class="pt-2">Diplomado</h5>
-                      <p class="text-muted">
-                        Estrategias clínicas de Terapia Breve en adultos.
-                      </p>
-                      <p>ADIPA</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
     <section
       id="experiencia"
-      class="text-center my-5 p-5 contenedor-experiencia"
+      class="d-flex flex-column justify-content-center contenedor-experiencia"
     >
-      <div class="row justify-content-center fs-1 mb-5">
-        <div class="col-10 text-center fw-bold text-dark titulo-seccion">
-          Experiencia
-        </div>
+      <div class="row justify-content-center fw-bold titulo-seccion mb-3">
+        Experiencia
       </div>
       <div class="row justify-content-center align-items-center">
         <div class="col-5 text-end">
-          <h4 class="text-white">2021 a la fecha</h4>
+          <h4>2021 a la fecha</h4>
           <p>Psicóloga, Universidad de las Ámericas</p>
         </div>
         <div class="col-5 fw-light texto-experiencia">
@@ -183,90 +129,184 @@
         </div>
       </div>
     </section>
-    
-    <section id="portafolio" class="my-5 p-5 bg-dark">
-        <h2 class="display-4 fw-bold text-center text-light mb-3">
-          Mis trabajos
-        </h2>
-  
+
+    <section id="educación">
+      <div
+        class="d-flex flex-column justify-content-center bg-white contenedor-educacion"
+      >
+        <div class="col-12 text-center fw-bold titulo-seccion mb-5">
+          Mis estudios
+        </div>
         <div class="row">
-          <div class="col-12 col-sm-3 py-2">
-            <div class="card">
-              <div
-                class="image-top"
-                style="background-image: url(assets/img/img_html.jpeg)"
-              ></div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">HTML</h5>
-                <p class="card-text">
-                  Primer acercamiento a la utilización de etiquetas html, con el
-                  uso de títulos, párrafos, listas e imágenes. Enlace funcional y
-                  tabla según las especificaciones solicitadas para el primer
-                  desafío.
-                </p>
-                <a href="html/" class="btn btn-outline-secondary">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-3 py-2">
-            <div class="card">
-              <div
-                class="image-top"
-                style="background-image: url(assets/img/img_css.jpeg)"
-              ></div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">CSS</h5>
-                <p class="card-text">
-                  Construcción de un landing page con la implementación de estilos
-                  CSS, para textos, color y fondo, para la definición de aspectos
-                  visuales de una interfaz web. Bordes, margen, padding y modelo
-                  de cajas.
-                </p>
-                <a href="css/" class="btn btn-outline-secondary">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-3 py-2">
-            <div class="card">
-              <div
-                class="image-top"
-                style="background-image: url(assets/img/img_flex.jpeg)"
-              ></div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">FLEX</h5>
-                <p class="card-text">
-                  Landing page a partir de maqueta siguiendo especificaciones
-                  definidas. Utilización de flexbox para crear galería de
-                  imágenes, sección de características y utilización de iconos
-                  desde font awasome.
-                </p>
-                <a href="flex/" class="btn btn-outline-secondary">Ver más</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-3 py-2">
-            <div class="card">
-              <div
-                class="image-top"
-                style="background-image: url(assets/img/img_bootstrap.jpeg)"
-              ></div>
-              <div class="card-body">
-                <h5 class="card-title fw-bold">BOOTSTRAP</h5>
-                <p class="card-text">
-                  Implementación de sistema de grillas de Bootstrap, para pagina
-                  web adaptable a distintos dispositivos. Aplicación de
-                  componentes card, formularios y footer.
-                </p>
-                <a href="bootstrap/" class="btn btn-outline-secondary">Ver más</a>
-              </div>
+          <div class="col-lg-12">
+            <div class="horizontal-timeline">
+              <ul class="list-inline items">
+                <li class="list-inline-item items-list">
+                  <div class="px-4">
+                    <div class="event-date badge bg-primary text-white">
+                      2003
+                    </div>
+                    <h5 class="pt-2">E. Básica</h5>
+                    <p class="text-muted">Graduación 8vo básico</p>
+                    <p>
+                      Colegio Teresiano San José. Comuna San Bernardo, Chile
+                    </p>
+                  </div>
+                </li>
+                <li class="list-inline-item items-list">
+                  <div class="px-4">
+                    <div class="event-date badge bg-primary text-white">
+                      2007
+                    </div>
+                    <h5 class="pt-2">E. Media</h5>
+                    <p class="text-muted">Graduación IV medio</p>
+                    <p>Liceo Maria Inmaculada. Comuna El Bosque, Chile</p>
+                  </div>
+                </li>
+                <li class="list-inline-item items-list">
+                  <div class="px-4">
+                    <div class="event-date badge bg-primary text-white">
+                      2017
+                    </div>
+                    <h5 class="pt-2">E. Universitaria</h5>
+                    <p class="text-muted">
+                      Título de Psicóloga y el Grado de Licenciada en Psicología
+                      2022
+                    </p>
+                    <p>UDLA. Santiago, Chile</p>
+                  </div>
+                </li>
+                <li class="list-inline-item items-list">
+                  <div class="px-4">
+                    <div class="event-date badge bg-primary text-white">
+                      2022
+                    </div>
+                    <h5 class="pt-2">Diplomado</h5>
+                    <p class="text-muted">
+                      Estrategias clínicas de Terapia Breve en adultos.
+                    </p>
+                    <p>ADIPA</p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-  
+      </div>
+    </section>
 
-   
+    <section id="portafolio" class="p-5 portafolio">
+      <div class="col-12 text-center fw-bold text-white titulo-seccion">
+        Mis trabajos
+      </div>
 
-    <section id="contacto"></section>
+      <div class="row">
+        <div class="col-12 col-sm-3 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/img_html.jpeg)"
+            ></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">HTML</h5>
+              <p class="card-text fw-light">
+                Primer acercamiento a la utilización de etiquetas html, con el
+                uso de títulos, párrafos, listas e imágenes. Enlace funcional y
+                tabla según las especificaciones solicitadas.
+              </p>
+              <a href="html/" class="btn btn-outline-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/img_css.jpeg)"
+            ></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">CSS</h5>
+              <p class="card-text fw-light">
+                Construcción de un landing page con la implementación de estilos
+                CSS, para textos, color y fondo, para la definición de aspectos
+                visuales de una interfaz web. Modelo de cajas.
+              </p>
+              <a href="css/" class="btn btn-outline-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/img_flex.jpeg)"
+            ></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">FLEX</h5>
+              <p class="card-text fw-light">
+                Landing page a partir de maqueta siguiendo especificaciones
+                definidas. Utilización de flexbox para crear galería de
+                imágenes, y utilización de iconos desde font awasome.
+              </p>
+              <a href="flex/" class="btn btn-outline-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 py-2">
+          <div class="card">
+            <div
+              class="image-top"
+              style="background-image: url(assets/img/img_bootstrap.jpeg)"
+            ></div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">BOOTSTRAP</h5>
+              <p class="card-text fw-light">
+                Implementación de sistema de grillas de Bootstrap, para pagina
+                web adaptable a distintos dispositivos. Aplicación de
+                componentes card, formularios y footer.
+              </p>
+              <a href="bootstrap/" class="btn btn-outline-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container my-5">
+      <div class="row flex-column align-items-center">
+        <div class="col-12 text-center fw-bold titulo-seccion">Contáctame</div>
+        <p class="col-10 text-center my-4">
+          ¡Gracias por visitar mi página! Si deseas obtener más información,
+          tienes alguna pregunta o simplemente quieres conectarte, utiliza el
+          formulario de contacto a continuación para enviarme un mensaje y te
+          responderé lo antes posible.
+        </p>
+      </div>
+      <form>
+        <div class="row flex-column align-items-center">
+          <div class="form-group mb-4 col-6">
+            <label class="mb-2">Nombre</label>
+            <input class="form-control" placeholder="Nombre" />
+          </div>
+
+          <div class="form-group mb-4 col-6">
+            <label class="mb-2">Correo electrónico</label>
+            <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+          <div class="form-group col-6">
+            <label class="mb-2">Mensaje</label>
+            <textarea
+              class="form-control"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>
+          </div>
+
+          <div class="my-3 text-end col-6">
+            <button class="btn btn-primary text-light">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </section>
   </body>
 </html>

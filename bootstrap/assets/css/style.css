@@ -1,0 +1,66 @@
+.navbar-color {
+  background-color: #28a745 !important;
+}
+
+.card-title {
+  color: #212529;
+}
+
+.text-name {
+  color: #707070;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.text-subtitle {
+  color: #707070;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.price {
+  color: #707070;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.offer-price {
+  color: #28a745;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.bg-form-cuppon {
+  background-color: #28a745 !important;
+}
+
+.title-form-cuppon {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.footer-text {
+  color: #707070;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 16px;
+}
