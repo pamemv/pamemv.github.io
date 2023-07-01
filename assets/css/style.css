@@ -16,10 +16,15 @@ body {
 .saludo-titulo {
   font-size: 100px;
 }
-.texto-portada {
-  font-weight: 300;
-}
+
 .contenedor-info {
   background-color: #e7edff;
   padding: 0px 30px;
+}
+.contenedor-experiencia {
+  height: 450px;
+  background-color: #7d99ec;
+}
+.texto-experiencia {
+  text-align: left;
 }
