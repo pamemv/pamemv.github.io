@@ -6,12 +6,16 @@ body {
   background-color: #7d99ec;
 }
 
-#front-page {
+.inicio {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.front-page {
   background-image: url("../img/fondo8.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  height: 750px;
 }
 
 .img-portada {
@@ -23,27 +27,34 @@ body {
   font-size: 30px;
 }
 
+.contenedor-nombre {
+  background-color: #e8e1ee;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
 .saludo-titulo {
   font-size: 100px;
 }
 
 .contenedor-info {
   background-color: #e7edff;
-  padding: 0px 30px;
+  padding: 30px;
+  border-radius: 30px;
 }
 
 .contenedor-experiencia {
-  height: 500px;
   background-color: #e7edff;
+  padding: 5rem 1rem;
 }
 
 .contenedor-educacion {
-  height: 500px;
+  padding: 5rem 3rem;
 }
 
 .titulo-seccion {
   font-size: 50px;
-  padding: 30px;
 }
 
 .texto-experiencia {
@@ -108,6 +119,7 @@ body {
 
 .portafolio {
   background-color: #7d99ec;
+  padding: 5rem 3rem;
 }
 
 .card {
